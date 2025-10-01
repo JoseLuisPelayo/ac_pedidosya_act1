@@ -1,4 +1,4 @@
-package com.jlgp.pedidosya.entities;
+package com.jlgp.pedidosya.entity;
 
 import lombok.*;
 

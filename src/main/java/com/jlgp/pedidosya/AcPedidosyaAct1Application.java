@@ -1,8 +1,8 @@
 package com.jlgp.pedidosya;
 
 import com.jlgp.pedidosya.dto.Datos;
-import com.jlgp.pedidosya.entities.Cliente;
-import com.jlgp.pedidosya.entities.Pedido;
+import com.jlgp.pedidosya.entity.Cliente;
+import com.jlgp.pedidosya.entity.Pedido;
 import com.jlgp.pedidosya.ops.OperacionesFicheros;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -48,11 +48,6 @@ public class AcPedidosyaAct1Application {
             clientes.forEach(System.out::println);
             pedidos = o.csvToOrders();
             pedidos.forEach(System.out::println);
-
-
-
-
-
 
         } catch (Exception e) {
             System.out.println(e.getMessage());

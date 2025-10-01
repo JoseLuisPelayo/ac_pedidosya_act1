@@ -1,4 +1,4 @@
-package com.jlgp.pedidosya.entities;
+package com.jlgp.pedidosya.entity;
 
 import lombok.*;
 
@@ -15,14 +15,14 @@ public class Cliente implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private long id;
-    private String name;
+    private String nombre;
 	private String email;
 
     public String toCSVFormat() {
-        return String.format("%d,%s,%s", id, name, email);
+        return String.format("%d,%s,%s", id, nombre, email);
     }
 
     public static String getAttributes() {
-        return String.format("%s,%s,%s", "id", "name", "email");
+        return String.format("%s,%s,%s", "id", "nombre", "email");
     }
 }

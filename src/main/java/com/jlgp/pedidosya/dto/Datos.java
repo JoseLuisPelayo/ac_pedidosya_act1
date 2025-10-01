@@ -1,7 +1,7 @@
 package com.jlgp.pedidosya.dto;
 
-import com.jlgp.pedidosya.entities.Cliente;
-import com.jlgp.pedidosya.entities.Pedido;
+import com.jlgp.pedidosya.entity.Cliente;
+import com.jlgp.pedidosya.entity.Pedido;
 
 import java.io.Serializable;
 import java.util.List;

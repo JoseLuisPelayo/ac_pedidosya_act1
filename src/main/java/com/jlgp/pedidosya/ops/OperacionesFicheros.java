@@ -1,8 +1,8 @@
 package com.jlgp.pedidosya.ops;
 
 import com.jlgp.pedidosya.dto.Datos;
-import com.jlgp.pedidosya.entities.Cliente;
-import com.jlgp.pedidosya.entities.Pedido;
+import com.jlgp.pedidosya.entity.Cliente;
+import com.jlgp.pedidosya.entity.Pedido;
 import com.jlgp.pedidosya.utils.SerializationUtil;
 
 import java.io.*;
@@ -12,7 +12,7 @@ import java.util.List;
 
 public class OperacionesFicheros {
 
-    private static final File dataFile = new File("src/main/resources/datos.dat");
+    private static final File dataFile = new File("src/main/resources/datos.obj");
     private static final File clienteCsv = new File("src/main/resources/clientes.csv");
     private static final File pedidosCsv = new File("src/main/resources/pedidos.csv");
 
